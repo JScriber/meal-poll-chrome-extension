@@ -1,0 +1,25 @@
+{
+  "name": "meal-poll-chrome-extension",
+  "version": "0.1.0",
+  "description": "Chrome extension for the meal poll application.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --config webpack/webpack.dev.js --watch",
+    "build": "webpack --config webpack/webpack.prod.js"
+  },
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JScriber/meal-poll.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chrome": "~0.0.83",
+    "copy-webpack-plugin": "^5.0.3",
+    "ts-loader": "~5.4.3",
+    "typescript": "~3.4.5",
+    "webpack": "~4.17.2",
+    "webpack-cli": "~3.1.0",
+    "webpack-merge": "~4.1.4"
+  }
+}

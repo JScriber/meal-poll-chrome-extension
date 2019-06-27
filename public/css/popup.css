@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 360px;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 1px 0;
+  padding: 5px 0;
+  transition: all .1s linear 0s;
+}
+
+ul li:active, .available span {
+  transform: scale(0.95);
+}
+
+ul li:hover {
+  background-color: #f1f1f1;
+}
+
+.place-to-eat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  height: 48px;
+  width: 48px;
+  background-color: #f1f1f1;
+}
+
+.place-to-eat img {
+  height: 75%;
+}
+
+li .place-to-eat {
+  margin-left: 7px;
+}
+
+.separator {
+  width: 1px;
+  height: 30px;
+  background-color: #d8d8d8;
+  margin: 0 5px;
+}
+
+.eater {
+  display: flex;
+  flex-flow: row wrap;
+  overflow: hidden;
+  max-width: 280px;
+}
+
+.eater img {
+  height: 40px;
+  border-radius: 50%;
+  margin: 1px 3px;
+}
+
+.big-separator {
+  height: 1px;
+  width: 100%;
+  margin: 8px 0;
+  background: #d8d8d8;
+}
+
+.available {
+  display: flex;
+  margin: 12px 0;
+  padding-left: 7px;
+}
+
+.available span {
+  margin-left: 8px;
+}
+
+.available span:first-child {
+  margin-left: 0;
+}
